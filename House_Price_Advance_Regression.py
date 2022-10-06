@@ -7,8 +7,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 1.2 Import Data
-trainData= pd.read_csv('../input/house-prices-advanced-regression-techniques/train.csv')
-testData= pd.read_csv('../input/house-prices-advanced-regression-techniques/test.csv')
+trainData= pd.read_csv('D:\DS_Projects\House_Price/train.csv')
+testData= pd.read_csv('.D:\DS_Projects\House_Price/test.csv')
 
 ### Start Exploring Data
 pd.reset_option('display.max_rows')
